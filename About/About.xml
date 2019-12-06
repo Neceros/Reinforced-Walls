@@ -4,9 +4,13 @@
 		<author>Neceros</author>
 		<supportedVersions><li>1.0</li></supportedVersions>
 		<description>
-Adds expensive walls that take a long time to build, but are really defensive. Like normal walls, but harder to destroy. Invest in defense now in order to protect yourself later.
+Adds expensive heavy reinforced walls with exceptional hit points that resists explosive damage. 
 
+Additionally, you get an embrasure version of the heavy reinforced wall (you can shoot through it, but not walk through it) providing 75% cover from fire. 
 
-Thanks to [b]Poroh[/b] for the basis of the reinforced wall artwork, from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=795240891]Concrete Walls[/url]
+Works with all stone and metal materials (even modded.)
+
+Research one industrial project to gain access. Add to a save just fine. Remove it from a save easy too, just remove the walls first.
+
 </description>
 </ModMetaData>

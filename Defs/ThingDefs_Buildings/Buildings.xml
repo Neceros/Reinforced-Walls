@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseBuilding" Name="NEC_ReinforcedWall">
+  <ThingDef ParentName="BuildingBase" Name="NEC_ReinforcedWall">
     <defName>NEC_ReinforcedWall</defName>
     <label>heavy reinforced wall</label>
     <description>A strong impassable wall made to withstand lots of abuse and direct explosions. Capable of holding up a roof.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>
-      <texPath>Reinforced_Walls_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <linkType>Basic</linkType>
+      <texPath>Reinforced_Walls</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
       <linkFlags>
         <li>Wall</li>
         <li>Rock</li>
@@ -28,8 +28,8 @@
     </graphicData>
     <uiIconPath>RWIcon</uiIconPath>
     <statBases>
-      <MaxHitPoints>1000</MaxHitPoints>
-      <WorkToBuild>320</WorkToBuild>
+      <MaxHitPoints>900</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
     <costStuffCount>15</costStuffCount>
@@ -81,8 +81,8 @@
     <label>heavy reinforced embrasure</label>
     <description>A strong impassable wall made to withstand lots of abuse and direct explosions. Capable of holding up a roof. Designed with tactical holes to see and fire through.</description>
     <graphicData>
-      <texPath>RW_Embrasure_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>RW_Embrasure</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
     </graphicData>
     <uiIconPath>RWEmbrasureIcon</uiIconPath>
     <statBases>
@@ -93,8 +93,7 @@
     <researchPrerequisites>
       <li>ResearchReinforcedWalls</li>
     </researchPrerequisites>
-    <designationCategory>Structure</designationCategory>
-    <fillPercent>0.80</fillPercent>
+    <fillPercent>0.75</fillPercent>
   </ThingDef>
 
 </Defs>
