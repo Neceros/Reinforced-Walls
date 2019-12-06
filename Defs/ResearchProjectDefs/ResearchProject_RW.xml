@@ -10,8 +10,8 @@
 		<prerequisites>
 			<li>Smithing</li>
 		</prerequisites>
-		<researchViewX>2</researchViewX>
-		<researchViewY>2.8</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
