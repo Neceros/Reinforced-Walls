@@ -85,15 +85,10 @@
       <graphicClass>Graphic_Appearances</graphicClass>
     </graphicData>
     <uiIconPath>RWEmbrasureIcon</uiIconPath>
-    <statBases>
-      <MaxHitPoints>900</MaxHitPoints>
-      <WorkToBuild>320</WorkToBuild>
-      <Flammability>0.0</Flammability>
-    </statBases>
     <researchPrerequisites>
       <li>ResearchReinforcedWalls</li>
     </researchPrerequisites>
-    <fillPercent>0.75</fillPercent>
+    <fillPercent>0.65</fillPercent>
   </ThingDef>
 
 </Defs>

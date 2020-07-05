@@ -5,7 +5,7 @@
 		<defName>ResearchReinforcedWalls</defName>
 		<label>reinforced walls</label>
 		<description>Strong walls made for war. Explosion resistant.</description>
-		<baseCost>2500</baseCost>
+		<baseCost>2000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Smithing</li>
